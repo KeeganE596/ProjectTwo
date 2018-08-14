@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Twotter</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link rel="icon" href="img/logo_2.png">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<section>
+			<img class="navLogo" src="img/logo_2.png" alt="Twotter logo" height="25" width="25">
+			<a class="navword" id="home" href="#home">Home</a>
+			<a class="navword" href="#moments">Moments</a>
+			<a class="navword" href="#notif">Notifications</a>
+			<a class="navword" href="#messages">Messages</a>
+			<form>
+				<input class="search" type="text" name="search" placeholder="Search Twotter">
+			</form>
+			<img class="accLogo"src="img/account.png" alt="Acc Img" height="32" width="32">
+			<div class="g-10">
+				<h5 class="newTwoot">Twoot</h5>
+			</div>
+			</section>
+		</nav>
+	</header>
+	<br><br><br>
+	<section>
+			<div  id="user">
+				<img class="cover-img" src="img/coverpic_2.png" alt="profile image" width="100%" height="100">
+				<img class="profile-img" src="img/profile.jpg" alt="profile image" width="75" height="75">
+				<h4 id="username">Todd Oliver</h4>
+				<h4 id="usertag">@coolguy365</h4>
+				<dl>
+				  <dt class="usertwoots">Twoots</dt>
+				  <dd class="usertwootsnum">119</dd>
+				  <dt class="following">Following</dt>
+				  <dd class="followingnum">358</dd>
+				</dl>
+			</div>
+
+			<div  id="trends">
+				<h4 class="boxtitle">Trends for you</h4>
+				<dl>
+				  <dt class="trendtag">#AntiVacc</dt>
+				  <dd class="trendtweets">4,596 twoots</dd>
+				  <dt class="trendtag">#TheZuccSucc</dt>
+				  <dd class="trendtweets">30.2K twoots</dd>
+				  <dt class="trendtag">Tonald Drump</dt>
+				  <dd class="trendtweets">102.3K twoots</dd>
+				  <dt class="trendtag">#YourMother</dt>
+				  <dd class="trendtweets">3,069 twoots</dd>
+				  <dt class="trendtag">#baldSupremacy</dt>
+				  <dd class="trendtweets">1,402 twoots</dd>
+				  <dt class="trendtag">#SchoolsAreBad</dt>
+				  <dd class="trendtweets">6,800 twoots</dd>
+				  <dt class="trendtag">World Breaking News</dt>
+				  <dd class="trendtweets">46.9K twoots</dd>
+				</dl>
+			</div>
+
+			<div id="main">
+				<div class="happenning">
+					<img class="happimg" src="img/account.png" alt="Account image" height="32" width="32">
+					<form>
+						<input class="happtext" type="text" name="whatsHappenning" placeholder="What's happenning?">
+					</form>
+				</div>
+
+				<div class="post">
+					<img  class="posterimg" src="img/thingsLogo.png" alt="Things Logo" width="50" height="50">
+					<h4 class="poster">Things</h4>
+					<h5 class="postertag">@NZThings  &nbsp; &nbsp; 2h</h5>
+					<p class="postdesc">Man arrested after stealing feijoas off neighbours tree, claims 'it was on his</p>
+					<img class="postimg" src="img/feijoa.jpg" alt="Feijoa tree" width="83%" height="300px">
+					<div class="imgbox">
+						<h5 class="imgtitle">Man faces charges after stealing feijoas</h5>
+						<p class="imgdesc">A containers worth of feijoas was taken on Sunday evening from a Hawks Bay property, the man claims 'it was on my property.'</p>
+						<p class="imgdesc" id="site">things.co.nz</p>
+					</div>
+				</div>
+				<div class="post">
+					<img  class="posterimg" src="img/adviserLogo.png" alt="Adviser Logo" width="50" height="50">
+					<h4 class="poster">NZ Adviser</h4>
+					<h5 class="postertag" id="extra">@NZAdviser  &nbsp; &nbsp; 5h</h5>
+					<p class="postdesc">Data stolen from over 25,000 in new password leak scandal</p>
+					<img class="postimg" src="img/cyber.jpg" alt="Feijoa tree" width="83%" height="300px">
+					<div class="imgbox">
+						<h5 class="imgtitle">Large password leak scandal scares thousands</h5>
+						<p class="imgdesc">Over 25,000 paswords were leaked in a new scandal, security experts claim more could have been done to protect the data.</p>
+						<p class="imgdesc" id="site">NZAdviser.co.nz</p>
+					</div>
+				</div>
+				<div class="post">
+					<img  class="posterimg" src="img/beatbribeLogo.png" alt="Adviser Logo" width="50" height="50">
+					<h4 class="poster">Beat Bribe</h4>
+					<h5 class="postertag" id="extra">@BeatBribe  &nbsp; &nbsp; 3h</h5>
+					<p class="postdesc">Team of local scientists cannot understand how big this man has grown</p>
+					<img class="postimg" src="img/doctor.jpg" alt="Feijoa tree" width="83%" height="300px">
+					<div class="imgbox">
+						<h5 class="imgtitle">Man grows larger than scientists have even seen before</h5>
+						<p class="imgdesc">Team of local scientists in awe at 'absolute unit' of a man that is being treated at nearby clinic.</p>
+						<p class="imgdesc" id="site">BeatBribe.com</p>
+					</div>
+				</div>
+				<div class="load">
+					<h5 class="loadtext">Load More Twoots</h5>
+				</div>
+			</div>
+
+			<div id="follow">
+				<h4 class="boxtitle">Who to follow</h4>
+				<div class="g-90" id="followBox">
+					<img src="img/onion.jpg" alt="The Onion Profile" width="55" height="55" class="followPic">
+					<h4 id="followname">The Onion</h4>
+					<h4 id="followtag">@TheOnion</h4>
+					<h5 class="followButton">Follow</h5>
+				</div>
+				<div class="g-90" id="followBox">
+					<img src="img/clickhole.jpg" alt="ClickHole Profile" width="55" height="55" class="followPic">
+					<h4 id="followname">ClickHole</h4>
+					<h4 id="followtag">@ClickHole</h4>
+					<h5 class="followButton">Follow</h5>
+				</div>
+				<div class="g-90" id="followBox">
+					<img src="img/knewstalk.png" alt="Knews Talk Profile" width="55" height="55" class="followPic">
+					<h4 id="followname">Knews Talk</h4>
+					<h4 id="followtag">@KnewsTalk</h4>
+					<h5 class="followButton">Follow</h5>
+				</div>
+			</div>
+			
+			<div id="info">
+				<div class="g-80">
+					<a class="infoPar" href="#nowhere">©2018 Twotter</a>
+					<a class="infoPar" href="#nowhere">About</a>
+					<a class="infoPar" href="#nowhere">Help Centre</a>
+					<a class="infoPar" href="#nowhere">Terms</a>
+					<a class="infoPar" href="#nowhere">Privacy policy</a>
+					<a class="infoPar" href="#nowhere">Cookies</a>
+					<a class="infoPar" href="#nowhere">Ads info</a>
+					<a class="infoPar" href="#nowhere">Brand</a>
+					<a class="infoPar" href="#nowhere">Blog</a>
+					<a class="infoPar" href="#nowhere">Status</a>
+					<a class="infoPar" href="#nowhere">Apps</a>
+					<a class="infoPar" href="#nowhere">Jobs</a>
+					<a class="infoPar" href="#nowhere">Marketing</a>
+					<a class="infoPar" href="#nowhere">Businesses</a>
+					<a class="infoPar" href="#nowhere">Developers</a>
+				</div>
+				<a href="#nowhere" class="advertise">Advertise with Twotter</a>
+			</div>
+
+	</section>
+</body>
+
+</html>
